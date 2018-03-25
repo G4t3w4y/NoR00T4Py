@@ -1,0 +1,45 @@
+#!/bin/bash
+#Script AutoInstaller
+
+echo -e "
+\n#
+#  _  _ ____     ____ ____ ____ ___     ____ ____ ____     ___  _   _ 
+#  |\ | |  |     |__/ |  | |  |  |      |___ |  | |__/     |__]  \_/  
+#  | \| |__| ___ |  \ |__| |__|  |  ___ |    |__| |  \ ___ |      |   
+#
+#    Wirtten By X0R AntiSecita http://www.antisec-ita.blogspot.com"
+#\n\n                                                                   \n\n"
+
+dpath1="/enter/your/own/path"
+
+### Don't edit here ##############
+pauto=".p/.p27/"
+fullpauto="$dpath1$pauto"
+dpath2=".p/.p27/python"
+dpath3mod=".p/p1/"
+fullpathpython="$dpath1$dpath2"
+fullpathmod="$dpath1$dpath3mod"
+##################################
+
+echo Your Path : $dpath1
+echo Entire Python Path: $fullpathpython
+echo Entire Python Module Path: $fullpathmod
+echo Starting.....\n###########################################\n\n
+
+$fullpauto ./configure --prefix="$dpath1.p/.p2/" && make && make install
+$fullpathpython $fullpathmod.1 setup.py install
+$fullpathpython $fullpathmod.2 setup.py install
+$fullpathpython $fullpathmod.3 setup.py install
+$fullpathpython $fullpathmod.4 setup.py install
+$fullpathpython $fullpathmod.5 setup.py install
+$fullpathpython $fullpathmod.6 setup.py install
+$fullpathpython $fullpathmod.7 setup.py install
+$fullpathpython $fullpathmod.8 setup.py install
+$fullpathpython $fullpathmod.9 setup.py install
+$fullpathpython $fullpathmod.10 setup.py install
+$fullpathpython $fullpathmod.11 setup.py install
+$fullpathpython $fullpathmod.12 setup.py install
+
+echo Python Installed : OK.\nLibs Installed : OK.\n\n###########################################\n
+
+
